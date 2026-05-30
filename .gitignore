@@ -1,0 +1,32 @@
+# Environment and secrets
+.env
+.env.*
+*.key
+*.pem
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Build artifacts
+node_modules/
+dist/
+build/
+.cache/
+
+# Logs
+*.log
+
+# Temp/backup
+*.tmp
+*.bak
+
+# Generated context (re-generate as needed)
+CODEX_REVIEW_CONTEXT.md
